@@ -1,0 +1,55 @@
+# Core ML & Data Science
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# Deep Learning
+torch>=2.0.0
+torch-geometric>=2.3.0  # Graph Neural Networks (Model 2)
+
+# Gradient Boosting
+xgboost>=1.7.0
+lightgbm>=4.0.0
+
+# Time Series
+statsmodels>=0.14.0
+pmdarima>=2.0.0
+
+# Explainable AI
+shap>=0.42.0
+lime>=0.2.0
+
+# Bayesian / Uncertainty
+pymc>=5.0.0
+
+# Genomics
+biopython>=1.81.0
+
+# Geospatial
+geopandas>=0.13.0
+folium>=0.14.0
+shapely>=2.0.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Data Sources / APIs
+requests>=2.31.0
+netCDF4>=1.6.0       # Climate data (ERA5/NOAA)
+
+# Utilities
+pyyaml>=6.0
+tqdm>=4.65.0
+joblib>=1.3.0
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Notebooks
+jupyter>=1.0.0
+ipykernel>=6.25.0

@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data (sensitive/large files — add specific safe files manually)
+data/raw/
+data/processed/
+data/external/
+*.parquet
+*.csv
+*.h5
+*.hdf5
+
+# Trained models (large binary files)
+models/**/*.pkl
+models/**/*.joblib
+models/**/*.pt
+models/**/*.pth
+!models/**/__init__.py
+!models/**/*.py
+
+# Results
+results/figures/
+results/predictions/
+
+# Logs
+*.log
+pipeline.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Environment variables
+.env
+.env.local
+*.key
+
+# Config with secrets
+configs/secrets.yaml
